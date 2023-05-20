@@ -15,8 +15,8 @@ import edu.wpi.first.wpilibj.drive.DifferentialDrive;
  * arcade steering.
  */
 public class Robot extends TimedRobot {
-  private final WPI_TalonSRX m_leftMotor = new WPI_TalonSRX(0);
-  private final WPI_TalonSRX m_rightMotor = new WPI_TalonSRX(1);
+  private final WPI_TalonSRX m_leftMotor = new WPI_TalonSRX(4);
+  private final WPI_TalonSRX m_rightMotor = new WPI_TalonSRX(5);
   private final DifferentialDrive m_robotDrive = new DifferentialDrive(m_leftMotor, m_rightMotor);
   private final Joystick m_stick = new Joystick(0);
 
